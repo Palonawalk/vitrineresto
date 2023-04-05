@@ -1,0 +1,32 @@
+nav {
+    background-color: palevioletred;
+    text-align: center;
+    color: aliceblue;
+}
+
+ul {
+    text-decoration: none;
+    list-style-type: none;
+    color: aliceblue;
+}
+
+a {
+    color: aliceblue;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: black;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    height: 5vh;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+}
