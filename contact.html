@@ -8,14 +8,30 @@
 </head>
 <body>
     <h1>Contactez-nous</h1>
+    <h4>Un problème, une question, envie de nous envoyer un message d'amour ? N'hésitez pas à utiliser ce formulaire !</h4>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        
+    </body>
+    </html></h3>
     <main>
         <form>
         <label for="name">Nom</label>
-        <input type="text" placeholder="Name" id="name"><br><br>
+        <input type="text" placeholder="name" id="name"><br><br>
         <label for="email">Email</label>
-        <input type="text" placeholder="Name" id="email"><br><br>
-        <textarea name="" id="" cols="30" rows="10"></textarea>
-        <input type="button" type="submit">
+        <input type="text" placeholder="email" id="email"><br><br>
+        <label for="sujet">Quel est le sujet de votre message ?</label>
+        <select name="sujet" id="sujet" required>
+        <option value="" disabled selected hidden>Choisissez le sujet de votre message</option>
+        <option value="autre">Autre...</option> </select><br><br>
+        <label for="message">Votre message</label><br><br>
+        <textarea name="message" id="message" cols="30" rows="10" placeholder="message"></textarea>
+        <input class="btn" type="submit">
     </form>
     </main>
 
